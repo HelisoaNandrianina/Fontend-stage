@@ -1,0 +1,112 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    backgroundColor: '#121212',
+  },
+  title: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: "white",
+    marginTop: 20,
+    marginBottom: 20,
+    textAlign: 'left', 
+    width: '100%', 
+  },
+  input: {
+    height: 50,
+    width: '100%',
+    maxWidth: 400,
+    borderColor: '#cccccc',
+    borderWidth: 1,
+    borderRadius: 8,
+    paddingHorizontal: 10,
+    marginBottom: 16,
+    backgroundColor: '#ffffff',
+  },
+  passwordContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    width: '100%',
+    maxWidth: 400,
+    marginBottom: 16,
+    position: 'relative', 
+  },
+  passwordInput: {
+    height: 50,
+    flex: 1,
+    borderColor: '#cccccc',
+    borderWidth: 1,
+    borderRadius: 8,
+    paddingHorizontal: 10,
+    paddingRight: 40, 
+    backgroundColor: '#ffffff',
+  },
+  iconContainer: {
+    position: 'absolute',
+    right: 10,
+    zIndex: 1,
+  },
+  button: {
+    backgroundColor: '#007bff',
+    borderRadius: 8,
+    paddingVertical: 12,
+    marginVertical: 12,
+    width: '100%',
+    maxWidth: 400,
+  },
+  buttonText: {
+    backgroundColor: '#007bff',
+    borderRadius: 8,
+    paddingVertical: 12,
+    marginVertical: 12,
+    width: '100%',
+    maxWidth: 400,
+    alignSelf: 'center',
+  },
+  footerText: {
+    textAlign: 'center',
+    marginTop: 16,
+    color: '#888888',
+  },
+  errorText: {
+    color: 'red',
+    marginBottom: 10,
+    fontWeight: "900",
+    textAlign: 'left', 
+    width: '100%', 
+  },
+  buttonAddResponsable:{
+    backgroundColor: '#27374D',
+    marginTop: 20,
+    marginLeft: 20,
+    marginRight: 20,
+    borderRadius: 8, 
+    paddingVertical: 12, 
+    paddingHorizontal: 20, 
+    alignItems: 'center', 
+    justifyContent: 'center', 
+    elevation: 3,
+    shadowColor: '#000', 
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.2, 
+    shadowRadius: 2.62, 
+  },
+  buttonAddResponsableText: {
+    color: '#ffffff', 
+    fontSize: 16, 
+    fontWeight: 'bold', 
+  },
+  userImage: {
+    width: 100,  // Largeur de l'image
+    height: 100,  // Hauteur de l'image
+    borderRadius: 25,  
+    marginRight: 20,  
+  
+},
+});
